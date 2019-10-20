@@ -18,7 +18,7 @@
 <script>
   export default {
     name:'HomeWeekend',
-    props:['weekendList'],
+    props:['weekendList']
   }
 </script>
 

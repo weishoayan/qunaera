@@ -31,7 +31,6 @@ export default {
     methods:{
         getQuery(){
             getHome().then(res=>{
-                console.log(res.data.data)
                 this.iconList=res.data.data.iconList
                 this.recommendList=res.data.data.recommendList
                 this.swiperList=res.data.data.swiperList

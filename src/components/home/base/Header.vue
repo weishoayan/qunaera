@@ -6,14 +6,14 @@
             <input type="text" placeholder="输入城市/景点/游玩主题">
         </div>
         <router-link tag="div" to='/city' class="header-right">
-            <span>长沙</span>
+            <span>{{$store.state.city}}</span>
             <i class="iconfont icon-jiantou"></i>
          </router-link>
     </div>
 </template>
 <script>
 export default {
-    name:'Header'
+    name:'Header',
 }
 </script>
 <style lang="stylus" scoped>
